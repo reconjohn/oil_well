@@ -1,0 +1,5 @@
+data/
+derived/
+*.R
+!oil_sample.R
+!SB_sample.R
