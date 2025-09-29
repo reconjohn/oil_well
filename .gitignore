@@ -1,7 +1,9 @@
 data/
 derived/
+docs/
 *.R
 !oil_sample.R
 !SB_sample.R
 *.qgz
 .Rproj.user
+
