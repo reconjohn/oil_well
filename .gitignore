@@ -4,6 +4,7 @@ docs/
 *.R
 !oil_sample.R
 !SB_sample.R
+!Function.R
 *.qgz
 .Rproj.user
 
