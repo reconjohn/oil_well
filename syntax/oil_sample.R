@@ -1,5 +1,4 @@
-library(tidyverse)
-load("./data/top_decile_enverus.RData") # enverus_county_total
+source("./syntax/Function.R")
 
 # original data
 d <- enverus_county_total %>% 

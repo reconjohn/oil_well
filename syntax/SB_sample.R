@@ -1,5 +1,4 @@
-library(tidyverse)
-load("./data/tri_county_enverus.RData") # tricounty
+source("./syntax/Function.R")
 
 dat <- tricounty %>% 
   filter(ENVWellStatus %in% c("PRODUCING","INACTIVE COMPLETED","INACTIVE INJECTOR","INACTIVE PRODUCER")) %>% 
