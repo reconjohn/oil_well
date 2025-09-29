@@ -1,17 +1,16 @@
 # Residential Sampling Methodology
 
-This document outlines the two-part sampling methodology used to create distinct datasets of residential properties for analysis. The process generates a large-scale national sample based on proximity to high-priority energy infrastructure and a separate, high-resolution regional sample focused on specific well types in California's Central Coast.
+This document outlines the two-part sampling methodology used to create distinct datasets of residential properties for analysis. The process generates a large-scale national sample based on proximity to high-priority oil well infrastructure and a separate, high-resolution regional sample focused on specific well types in California's Central Coast.
 
 ---
 
 ## 1. U.S. National Sample
 
-This phase creates a broad sample of residential units across the United States located near potential energy development sites.
+This phase creates a broad sample of residential units across the United States located near potential oil well development sites.
 
 ### Data Sources
-* **Energy Site Locations**: The `top_decile_enverus.RData` file, which contains a pre-compiled dataset of high-priority well locations provided by Enverus.
+* **Oil Well Locations**: The `top_decile_enverus.RData` file, which contains a pre-compiled dataset of high-priority well locations provided by Enverus.
 * **Residential Points**: A national CSV file containing geolocated residential units with `X` and `Y` coordinates.
-* **Census Data**: U.S. Census Tract shapefiles for data enrichment.
 
 ### Sampling Process & Criteria
 1.  **Define Anchor Points**: The locations from the `top_decile_enverus.RData` dataset are used as the central points for the sampling process.
